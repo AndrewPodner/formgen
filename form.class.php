@@ -30,7 +30,7 @@
  * 
  */
 
-class simpleForm {       
+class SimpleForm {       
         // @name: constructor
         // @params: idName - the form's id and name (string)
         //          action - target file for form's action, default is SELF (string)
@@ -57,7 +57,7 @@ class simpleForm {
             echo '</form>
             ';
 	}
-
+        
 
         /* @name: button
          * @param: name=string, val=string, onlick=string
@@ -70,6 +70,7 @@ class simpleForm {
             $string .= $this->_additionalParameters($arrAddtlParam);
             $string .= '/>
                 ';
+            echo $string;
         }
 
         // @name: checkbox
