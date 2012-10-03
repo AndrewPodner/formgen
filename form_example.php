@@ -18,10 +18,10 @@
   Project Site and Contact Info via SourceForge at:
   http://sourceforge.net/p/dbtrek/wiki/Home/
 
- * 
+ *
  */
 include('form.class.php');
-$f = new simpleForm('frmTest');
+$f = new UnassumingPHP\SimpleForm('frmTest');
 
 $f->label('textBox', 'Sample Text Box');
 $f->text('textBox');
